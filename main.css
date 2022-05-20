@@ -1,0 +1,72 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+.main-bar {
+    padding: 50px;
+    background-color: rgb(227, 225, 225);
+    border-radius: 10px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgb(227, 225, 225);
+    border-radius: 10px;
+}
+
+#langs {
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.5s;
+    text-align: center;
+    color: white;
+    background-color: rgb(196, 188, 188);
+    border: none;
+}
+
+#langs:hover {
+    background-color: rgb(108, 104, 104);
+}
+
+.submit {
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(196, 188, 188);
+    transition: all 0.5s;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.submit:hover {
+    background-color: rgb(108, 104, 104);
+}
+
+.out {
+    border-radius: 10px;
+    background-color: rgb(196, 188, 188);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 25px;
+    transition: all 0.5s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.out:hover {
+    background-color: rgb(108, 104, 104);
+}
